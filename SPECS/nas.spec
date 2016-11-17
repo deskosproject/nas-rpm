@@ -1,7 +1,7 @@
 Name:       nas 
 Summary:    The Network Audio System (NAS)
 Version:    1.9.4
-Release:    1%{?dist}
+Release:    2%{?dist}
 URL:        http://radscan.com/nas.html
 # README:               MIT (main license)
 # config/aclocal.m4:    FSFULLR
@@ -175,6 +175,9 @@ echo '  systemd-sysv-convert --apply %{daemon}'
 
 
 %changelog
+* Thu Nov 17 2016 Ricardo Arguello <rarguello@deskosproject.org> - 1.9.4-2
+- Rebuilt for DeskOS
+
 * Tue Oct 08 2013 Petr Pisar <ppisar@redhat.com> - 1.9.4-1
 - 1.9.4 bump
 - Package license corrected to MIT
